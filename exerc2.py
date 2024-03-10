@@ -13,7 +13,10 @@ def sum_positive_and_count_negative(numbers: np.array) -> tuple[int, int]:
 
     return positive_sum, zero_count
 
+max_of_numbers = 5
+array = np.array([0 for i in range(max_of_numbers)])
+for i in range(max_of_numbers):
+    array[i] = int(input("Enter a number: "))
 
 
-array = np.array([1, -2, -3, 4, 5])
 print(sum_positive_and_count_negative(array))
