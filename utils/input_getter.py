@@ -22,4 +22,16 @@ def get_matrix(rows: int, columns: int) -> np.ndarray:
     return matrix
 
 
+def sum_array(array: np.ndarray) -> int:
+    total = 0
+    for element in array:
+        total += element
+    
+    return total
 
+def array_length(array: np.ndarray) -> int:
+    length = 0
+    for element in array:
+        length += 1
+    
+    return length
